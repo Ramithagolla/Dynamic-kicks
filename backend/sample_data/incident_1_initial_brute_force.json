@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2026-11-05T08:14:02Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "admin_sarah",
+    "event_type": "ssh_login",
+    "status": "failed",
+    "raw_message": "sshd[4102]: Failed password for invalid user admin_sarah from 198.51.100.42 port 48122 ssh2"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:08Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "admin_sarah",
+    "event_type": "ssh_login",
+    "status": "failed",
+    "raw_message": "sshd[4105]: Failed password for admin_sarah from 198.51.100.42 port 48130 ssh2"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:15Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "admin_sarah",
+    "event_type": "ssh_login",
+    "status": "failed",
+    "raw_message": "sshd[4110]: Failed password for admin_sarah from 198.51.100.42 port 48144 ssh2"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:22Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "secops_lead",
+    "event_type": "web_portal_auth",
+    "status": "failed",
+    "raw_message": "auth-service[1092]: Invalid credential hash presented for identity secops_lead from client 198.51.100.42"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:30Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "secops_lead",
+    "event_type": "web_portal_auth",
+    "status": "failed",
+    "raw_message": "auth-service[1098]: Authentication failure for identity secops_lead from 198.51.100.42 attempt 2"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:39Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "secops_lead",
+    "event_type": "web_portal_auth",
+    "status": "failed",
+    "raw_message": "auth-service[1104]: Authentication failure for identity secops_lead from 198.51.100.42 attempt 3"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:48Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "dev_alex",
+    "event_type": "vpn_auth",
+    "status": "failed",
+    "raw_message": "openvpn[882]: TLS Handshake failed: Bad credentials for user dev_alex from peer 198.51.100.42:51200"
+  },
+  {
+    "timestamp": "2026-11-05T08:14:55Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "dev_alex",
+    "event_type": "vpn_auth",
+    "status": "failed",
+    "raw_message": "openvpn[885]: TLS Auth failure for user dev_alex from 198.51.100.42"
+  },
+  {
+    "timestamp": "2026-11-05T08:15:10Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "admin_sarah",
+    "event_type": "ssh_login",
+    "status": "success",
+    "raw_message": "sshd[4150]: Accepted password for admin_sarah from 198.51.100.42 port 48190 ssh2 [ANOMALOUS SUCCESS POST-FAILURE]"
+  },
+  {
+    "timestamp": "2026-11-05T08:15:25Z",
+    "source_ip": "198.51.100.42",
+    "destination_ip": "10.0.4.15",
+    "username": "admin_sarah",
+    "event_type": "privilege_command",
+    "status": "success",
+    "raw_message": "sudo: admin_sarah : TTY=pts/2 ; PWD=/home/admin_sarah ; USER=root ; COMMAND=/bin/cat /etc/shadow"
+  }
+]

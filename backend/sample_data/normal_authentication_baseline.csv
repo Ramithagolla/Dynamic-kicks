@@ -1,0 +1,7 @@
+timestamp,source_ip,destination_ip,username,event_type,status,raw_message
+2026-11-05T08:00:10Z,10.0.1.50,10.0.4.15,alice_dev,sso_login,success,"sso-idp[801]: User alice_dev successfully authenticated via SAML 2.0 with MFA push"
+2026-11-05T08:02:15Z,10.0.1.55,10.0.4.15,bob_qa,vpn_auth,success,"openvpn[805]: TLS handshake succeeded; user bob_qa authenticated from corp-wifi"
+2026-11-05T08:05:22Z,10.0.1.60,10.0.4.20,carol_eng,web_portal_auth,success,"auth-service[812]: Valid session ticket issued for carol_eng"
+2026-11-05T08:10:00Z,10.0.1.62,10.0.4.20,dave_ops,ssh_login,success,"sshd[820]: Accepted publickey for dave_ops from 10.0.1.62 port 42100 ssh2"
+2026-11-05T08:15:30Z,10.0.1.50,10.0.4.15,alice_dev,api_request,success,"api-gateway[830]: GET /api/v1/projects 200 OK for user alice_dev"
+2026-11-05T08:20:45Z,10.0.1.70,10.0.4.20,emma_hr,sso_login,success,"sso-idp[845]: Routine SSO login for emma_hr from workstation WKSTN-08"
