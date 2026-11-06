@@ -2,7 +2,9 @@ import json
 import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional
+# pyrefly: ignore[missing-import]
 import pymongo
+# pyrefly: ignore[missing-import]
 import mongomock
 from app.config import settings
 
@@ -27,6 +29,7 @@ class MongoService:
         Reports connection mode honestly.
         """
         import asyncio
+        # pyrefly: ignore[missing-import]
         import motor.motor_asyncio
 
         # Always try real MongoDB first (works for local and remote URIs)
